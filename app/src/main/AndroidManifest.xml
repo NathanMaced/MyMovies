@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MyMovies"
         tools:targetApi="31">
         <activity
+            android:name=".filme_layout"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".opcoes_filmes"
             android:exported="false">
             <meta-data
